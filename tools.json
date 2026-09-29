@@ -1,0 +1,2210 @@
+{
+  "tools": [
+
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "company": "OpenAI",
+      "description": "Versatile AI assistant for writing, analysis, coding, research, and brainstorming across virtually any subject.",
+      "url": "https://chat.openai.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Data Analysis", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Lesson Planning", "Assessment Creation", "Student Support - Tutoring"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Code Generation", "Image Generation", "Summarization", "Data Analysis"],
+        "specialFeatures": ["Multilingual Support", "Voice Capability", "Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Images", "Code", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "claude",
+      "name": "Claude",
+      "company": "Anthropic",
+      "description": "AI assistant known for handling long documents, nuanced writing, and structured reasoning with a strong safety focus.",
+      "url": "https://claude.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Research & Analysis", "Editing & Proofreading"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Lesson Planning", "Assessment Creation", "Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Code Generation", "Summarization", "Research/Citation"],
+        "specialFeatures": ["Handles Long Documents", "Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Code", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "company": "Google",
+      "description": "Google's flagship AI assistant with strong multilingual capabilities, YouTube integration, and deep Google Workspace connectivity.",
+      "url": "https://gemini.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Research & Analysis", "Translation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Lesson Planning", "Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Image Generation", "Translation", "Summarization"],
+        "specialFeatures": ["Multilingual Support", "Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Images", "Code"]
+      }
+    },
+
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "company": "Microsoft",
+      "description": "Microsoft's AI assistant built into Windows, Edge, and Office 365 with citation support and enterprise-grade features.",
+      "url": "https://copilot.microsoft.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Research & Analysis", "Data Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Windows)", "Browser Extension"],
+        "pedagogical": ["Lesson Planning", "Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Research/Citation", "Summarization"],
+        "specialFeatures": ["Citation Support", "Microsoft 365 Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Presentations", "Spreadsheets"]
+      }
+    },
+
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "company": "Perplexity AI",
+      "description": "AI-powered search engine that provides sourced, cited answers by synthesizing real-time information from across the web.",
+      "url": "https://perplexity.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Research & Analysis", "Literature Review", "Fact-Checking"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Question Answering", "Summarization"],
+        "specialFeatures": ["Citation Support", "Real-Time Information"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "company": "Google",
+      "description": "Upload your own sources and get AI-generated insights, summaries, and audio overviews grounded exclusively in your documents.",
+      "url": "https://notebooklm.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Research Synthesis", "Literature Review", "Note-Taking"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills", "Study Skills", "Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization", "Question Answering", "Audio Generation"],
+        "specialFeatures": ["Citation Support", "Multi-Document Analysis"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "elicit",
+      "name": "Elicit",
+      "company": "Ought",
+      "description": "AI research assistant that searches academic papers, extracts key findings, and creates structured summary tables for literature reviews.",
+      "url": "https://elicit.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Research Synthesis", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Academic Paper Search", "Citation Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Spreadsheets"]
+      }
+    },
+
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "company": "Consensus",
+      "description": "Searches 200M+ peer-reviewed papers and synthesizes scientific consensus across studies with direct citations.",
+      "url": "https://consensus.app",
+      "tags": {
+        "discipline": ["STEM - Life Sciences", "STEM - Physical Sciences", "Psychology & Behavioral Science", "Health Sciences"],
+        "useCase": ["Literature Review", "Research & Analysis", "Fact-Checking"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Citation Support", "Peer-Reviewed Focus"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "scite",
+      "name": "Scite",
+      "company": "Scite",
+      "description": "Analyzes how papers cite each other — distinguishing supporting from contrasting citations — with Smart Citations across 1.2B+ citation statements.",
+      "url": "https://scite.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Citation Management", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Browser Extension"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation"],
+        "specialFeatures": ["Citation Analysis", "Supporting/Contrasting Citations"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "research-rabbit",
+      "name": "Research Rabbit",
+      "company": "Research Rabbit",
+      "description": "Visual citation mapping tool that generates networks of related papers from a seed paper, with personalized recommendations.",
+      "url": "https://researchrabbitapp.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Citation Management", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Personalization/Adaptive"],
+        "specialFeatures": ["Visual Citation Networks", "Paper Recommendations"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "company": "Allen Institute for AI",
+      "description": "Free AI-powered academic search engine with citation analysis, research trend tracking, and AI-generated paper summaries.",
+      "url": "https://semanticscholar.org",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Research & Analysis", "Citation Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Citation Analysis", "Research Trends"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "company": "SciSpace",
+      "description": "AI research platform covering 280M+ papers with literature search, PDF analysis, AI writing assistance, and citation generation.",
+      "url": "https://scispace.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Research & Analysis", "Writing & Drafting"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization", "Text Generation"],
+        "specialFeatures": ["Citation Support", "Academic Paper Search"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "connected-papers",
+      "name": "Connected Papers",
+      "company": "Connected Papers",
+      "description": "Generates a visual graph of academically related papers from a single seed paper to map a field's landscape quickly.",
+      "url": "https://connectedpapers.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Literature Review", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation"],
+        "specialFeatures": ["Visual Citation Networks"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "paperpal",
+      "name": "Paperpal",
+      "company": "Paperpal",
+      "description": "AI writing assistant built for academic manuscripts — grammar, paraphrasing, journal submission compliance, and language polishing.",
+      "url": "https://paperpal.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Editing & Proofreading", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Writing Support", "Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Summarization"],
+        "specialFeatures": ["Academic Writing", "Citation Support", "Plagiarism Detection"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "company": "Grammarly",
+      "description": "Real-time writing assistant that checks grammar, tone, clarity, and style across browsers, documents, and email.",
+      "url": "https://grammarly.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Editing & Proofreading"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Browser Extension", "Desktop App (Mac)", "Desktop App (Windows)", "Mobile App"],
+        "pedagogical": ["Writing Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Summarization"],
+        "specialFeatures": ["Real-Time Editing", "Tone Detection", "Plagiarism Detection"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "company": "QuillBot",
+      "description": "AI paraphrasing and summarization tool that rewrites, condenses, and checks grammar across multiple writing modes.",
+      "url": "https://quillbot.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Editing & Proofreading"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Browser Extension"],
+        "pedagogical": ["Writing Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Summarization"],
+        "specialFeatures": ["Citation Support", "Plagiarism Detection"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "hemingway-editor",
+      "name": "Hemingway Editor",
+      "company": "Hemingway App",
+      "description": "Writing clarity tool that highlights complex sentences, passive voice, and readability issues to make writing bold and direct.",
+      "url": "https://hemingwayapp.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Editing & Proofreading"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Writing Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Readability Scoring"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "prowritingaid",
+      "name": "ProWritingAid",
+      "company": "ProWritingAid",
+      "description": "Deep-analysis writing assistant with 20+ detailed reports on style, consistency, pacing, and grammar for serious writers and academics.",
+      "url": "https://prowritingaid.com",
+      "tags": {
+        "discipline": ["Literature & Writing", "Cross-disciplinary"],
+        "useCase": ["Writing & Drafting", "Editing & Proofreading"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)", "Browser Extension"],
+        "pedagogical": ["Writing Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Style Analysis", "Consistency Checking", "Plagiarism Detection"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "company": "Gamma",
+      "description": "AI presentation maker that converts text or outlines into polished, web-friendly slide decks in minutes with a conversational design agent.",
+      "url": "https://gamma.app",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Presentation Design"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Image Generation"],
+        "specialFeatures": ["Templates Available", "Export Options"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Presentations"]
+      }
+    },
+
+    {
+      "id": "canva-ai",
+      "name": "Canva AI",
+      "company": "Canva",
+      "description": "Design platform with AI-powered image generation, Magic Design, background removal, and text-to-presentation tools.",
+      "url": "https://canva.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Presentation Design", "Infographic Creation", "Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App", "Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Lesson Planning", "Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation", "Text Generation"],
+        "specialFeatures": ["Templates Available", "Export Options"],
+        "collaboration": ["Team Collaboration", "Real-Time Collaboration"],
+        "outputType": ["Presentations", "Images", "PDFs"]
+      }
+    },
+
+    {
+      "id": "pitch",
+      "name": "Pitch",
+      "company": "Pitch",
+      "description": "Collaborative presentation tool with AI-powered smart templates, team analytics, and professional deck creation.",
+      "url": "https://pitch.com",
+      "tags": {
+        "discipline": ["Business & Management"],
+        "useCase": ["Presentation Design"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Templates Available", "Team Collaboration"],
+        "collaboration": ["Team Collaboration", "Commenting/Feedback"],
+        "outputType": ["Presentations"]
+      }
+    },
+
+    {
+      "id": "napkin-ai",
+      "name": "Napkin.ai",
+      "company": "Napkin",
+      "description": "Instantly turns text into diagrams, flowcharts, timelines, and infographics — no design skills needed.",
+      "url": "https://napkin.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Data Visualization", "Presentation Design", "Infographic Creation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": ["Export Options"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Images", "PDFs"]
+      }
+    },
+
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "company": "Midjourney",
+      "description": "High-quality AI image generation with distinctive artistic styles, operated through Discord with a strong creative community.",
+      "url": "https://midjourney.com",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "Visual Arts & Design"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "dalle3",
+      "name": "DALL-E 3",
+      "company": "OpenAI",
+      "description": "OpenAI's image generation model integrated into ChatGPT, producing accurate, detailed images from text prompts.",
+      "url": "https://openai.com/dall-e-3",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "company": "Adobe",
+      "description": "Adobe's multi-model creative AI studio with 30+ AI models for image generation, video editing, and full Creative Cloud integration.",
+      "url": "https://firefly.adobe.com",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "Visual Arts & Design", "Film & Media Arts"],
+        "useCase": ["Image Generation", "Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation", "Video Generation"],
+        "specialFeatures": ["Adobe Creative Cloud Integration", "Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images", "Videos"]
+      }
+    },
+
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "company": "Stability AI",
+      "description": "Open-source image generation model that runs locally on your machine, offering maximum customization and fine-tuning control.",
+      "url": "https://stability.ai",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "STEM - Computer Science & Technology"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Advanced/Technical Users",
+        "cost": "Completely Free",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": ["Open Source", "Offline Capability"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo.ai",
+      "company": "Leonardo AI",
+      "description": "AI image and asset generation platform with consistent character generation, game asset creation, and concept art tools.",
+      "url": "https://leonardo.ai",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "Game Design & Interactive Media"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "playground-ai",
+      "name": "Playground AI",
+      "company": "Playground",
+      "description": "AI image generation and graphic design platform with layer-based editing, template design, and a growing font library.",
+      "url": "https://playground.com",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "Visual Arts & Design"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "company": "Ideogram",
+      "description": "AI image generation tool with superior text rendering in images — ideal for posters, logos, and typographic design work.",
+      "url": "https://ideogram.ai",
+      "tags": {
+        "discipline": ["Visual Arts & Design", "Communications & Journalism"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana 2",
+      "company": "Google",
+      "description": "Google's fastest AI image generation model (Gemini 3.1 Flash Image), now the default image generator across Google's ecosystem.",
+      "url": "https://gemini.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Arts & Creative Media"],
+        "useCase": ["Image Generation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "runway",
+      "name": "Runway",
+      "company": "Runway",
+      "description": "Professional AI video generation and editing platform offering access to multiple video models including Gen-4.5, Veo, and Kling.",
+      "url": "https://runwayml.com",
+      "tags": {
+        "discipline": ["Film & Media Arts", "Arts & Creative Media"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "company": "Synthesia",
+      "description": "Creates professional AI avatar videos from scripts in 160+ languages — the leading tool for localized training and instructional content.",
+      "url": "https://synthesia.io",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Education"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Resource Curation"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Multilingual Support", "Templates Available"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "d-id",
+      "name": "D-ID",
+      "company": "D-ID",
+      "description": "Generates talking avatar videos from photos and text, with video translation that preserves the speaker's original voice across 119 languages.",
+      "url": "https://d-id.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Lesson Planning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Multilingual Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "descript",
+      "name": "Descript",
+      "company": "Descript",
+      "description": "Edit audio and video by editing the transcript — with overdub voice cloning, transcription, and podcast production tools.",
+      "url": "https://descript.com",
+      "tags": {
+        "discipline": ["Film & Media Arts", "Audio Production & Technology", "Communications & Journalism"],
+        "useCase": ["Video Production", "Audio Production", "Transcription"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Audio Generation", "Video Generation"],
+        "specialFeatures": ["Transcription", "Export Options"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Videos", "Audio"]
+      }
+    },
+
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "company": "ElevenLabs",
+      "description": "Realistic AI voice generation and cloning platform supporting text-to-speech in multiple languages with fine-grained control.",
+      "url": "https://elevenlabs.io",
+      "tags": {
+        "discipline": ["Audio Production & Technology", "Communications & Journalism"],
+        "useCase": ["Audio Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Audio Generation"],
+        "specialFeatures": ["Multilingual Support", "Accessibility Features"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Audio"]
+      }
+    },
+
+    {
+      "id": "pictory",
+      "name": "Pictory",
+      "company": "Pictory",
+      "description": "Converts blog posts, scripts, and long-form content into short branded videos with automatic captions and stock media.",
+      "url": "https://pictory.ai",
+      "tags": {
+        "discipline": ["Communications & Journalism"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Templates Available", "Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "lumen5",
+      "name": "Lumen5",
+      "company": "Lumen5",
+      "description": "Transforms written articles and text into social-ready video clips at high speed with AI-matched visuals and brand customization.",
+      "url": "https://lumen5.com",
+      "tags": {
+        "discipline": ["Communications & Journalism"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "veo",
+      "name": "Veo",
+      "company": "Google DeepMind",
+      "description": "Google's state-of-the-art video generation model producing high-fidelity videos with synchronized audio, available via Gemini and Google Flow.",
+      "url": "https://deepmind.google/models/veo/",
+      "tags": {
+        "discipline": ["Film & Media Arts", "Arts & Creative Media", "Education"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation", "Audio Generation"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "google-vids",
+      "name": "Google Vids",
+      "company": "Google",
+      "description": "Google Workspace video creation tool powered by Veo 3.1 — generate up to 10 AI video clips per month free with your Google account.",
+      "url": "https://workspace.google.com/products/vids/",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Education"],
+        "useCase": ["Video Production"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Video Generation"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Videos"]
+      }
+    },
+
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "company": "GitHub / Microsoft",
+      "description": "AI coding assistant integrated into VS Code and other IDEs, offering code completion, pair programming, and autonomous coding agents.",
+      "url": "https://github.com/features/copilot",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": ["Microsoft 365 Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code"]
+      }
+    },
+
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "company": "Anysphere",
+      "description": "AI-first code editor with chat-with-codebase, multi-agent coding, and intelligent autocomplete — now used by 50% of Fortune 500 companies.",
+      "url": "https://cursor.com",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code"]
+      }
+    },
+
+    {
+      "id": "replit",
+      "name": "Replit AI",
+      "company": "Replit",
+      "description": "Browser-based coding environment with AI assistance that builds entire applications from natural language — ideal for students learning to code.",
+      "url": "https://replit.com",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding", "Web Development"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Interactive Learning", "Student Support - Tutoring"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Code", "Web Pages"]
+      }
+    },
+
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "company": "Tabnine",
+      "description": "Privacy-focused AI code completion that works offline, learns team coding patterns, and supports multiple languages and IDEs.",
+      "url": "https://tabnine.com",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": ["Offline Capability"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code"]
+      }
+    },
+
+    {
+      "id": "amazon-q",
+      "name": "Amazon Q Developer",
+      "company": "Amazon / AWS",
+      "description": "AWS's AI coding assistant with code completion, security vulnerability detection, and deep AWS service integration.",
+      "url": "https://aws.amazon.com/q/developer/",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code"]
+      }
+    },
+
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "company": "Codeium",
+      "description": "Enterprise-focused AI code editor (formerly Codeium) with strong compliance, on-premises deployment options, and agentic coding capabilities.",
+      "url": "https://codeium.com/windsurf",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Coding"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code"]
+      }
+    },
+
+    {
+      "id": "bubble",
+      "name": "Bubble",
+      "company": "Bubble",
+      "description": "Visual no-code platform for building complex web applications with databases, workflows, and UI — no coding knowledge required.",
+      "url": "https://bubble.io",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology"],
+        "useCase": ["Web Development"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Project-Based Learning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Web Pages"]
+      }
+    },
+
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "company": "Zapier",
+      "description": "No-code automation platform connecting 5,000+ apps to create automated workflows without writing a single line of code.",
+      "url": "https://zapier.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Automation", "Workflow Automation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Automation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Automated Workflows"]
+      }
+    },
+
+    {
+      "id": "make",
+      "name": "Make",
+      "company": "Make (formerly Integromat)",
+      "description": "Visual automation platform for complex multi-step workflows with advanced logic, API connections, and data transformation.",
+      "url": "https://make.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Automation", "Workflow Automation"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Automation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Automated Workflows"]
+      }
+    },
+
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "company": "Webflow",
+      "description": "No-code website builder with professional design control, CMS, and responsive layouts — produces real, deployable websites.",
+      "url": "https://webflow.com",
+      "tags": {
+        "discipline": ["Visual Arts & Design", "Communications & Journalism"],
+        "useCase": ["Web Development"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Project-Based Learning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": [],
+        "specialFeatures": ["Export Options"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Web Pages"]
+      }
+    },
+
+    {
+      "id": "chatgpt-data-analysis",
+      "name": "ChatGPT Advanced Data Analysis",
+      "company": "OpenAI",
+      "description": "ChatGPT's built-in data analysis mode — upload spreadsheets and datasets to get charts, statistical analysis, and Python-executed insights.",
+      "url": "https://chat.openai.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "STEM - Data Science"],
+        "useCase": ["Data Analysis", "Data Visualization"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis", "Code Generation"],
+        "specialFeatures": ["Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Data Visualizations", "Spreadsheets", "Code"]
+      }
+    },
+
+    {
+      "id": "julius-ai",
+      "name": "Julius AI",
+      "company": "Julius",
+      "description": "Natural language data analysis tool — ask questions about your data in plain English and get charts, statistics, and insights instantly.",
+      "url": "https://julius.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "STEM - Data Science", "Psychology & Behavioral Science"],
+        "useCase": ["Data Analysis", "Data Visualization"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Data Visualizations", "Spreadsheets"]
+      }
+    },
+
+    {
+      "id": "tableau-ai",
+      "name": "Tableau AI (Einstein)",
+      "company": "Salesforce",
+      "description": "Enterprise analytics platform with AI-powered natural language queries, automated insights, and interactive dashboards.",
+      "url": "https://tableau.com",
+      "tags": {
+        "discipline": ["Business & Management", "STEM - Data Science"],
+        "useCase": ["Data Analysis", "Data Visualization"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)", "Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": [],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Data Visualizations", "Spreadsheets"]
+      }
+    },
+
+    {
+      "id": "polymer",
+      "name": "Polymer",
+      "company": "Polymer",
+      "description": "Upload a spreadsheet and get automatic AI-generated insights, interactive charts, and shareable dashboards without any setup.",
+      "url": "https://polymersearch.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Data Analysis", "Data Visualization"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": [],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Data Visualizations", "Spreadsheets"]
+      }
+    },
+
+    {
+      "id": "maxqda",
+      "name": "MAXQDA",
+      "company": "VERBI Software",
+      "description": "Professional mixed-methods qualitative research software with AI-assisted coding, visualization, and team collaboration features.",
+      "url": "https://maxqda.com",
+      "tags": {
+        "discipline": ["Psychology & Behavioral Science", "Sociology & Anthropology", "Education", "Health Sciences"],
+        "useCase": ["Qualitative Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": ["Educational Discount", "Team Collaboration"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "dedoose",
+      "name": "Dedoose",
+      "company": "SocioCultural Research Consultants",
+      "description": "Web-based mixed-methods qualitative analysis platform with collaborative coding, data visualization, and strong security features.",
+      "url": "https://dedoose.com",
+      "tags": {
+        "discipline": ["Psychology & Behavioral Science", "Sociology & Anthropology", "Education"],
+        "useCase": ["Qualitative Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": ["Team Collaboration"],
+        "collaboration": ["Team Collaboration", "Real-Time Collaboration"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "nvivo",
+      "name": "NVivo",
+      "company": "Lumivero",
+      "description": "Industry-standard qualitative research software with AI-assisted theme identification, sentiment analysis, and mixed-methods support.",
+      "url": "https://lumivero.com/products/nvivo/",
+      "tags": {
+        "discipline": ["Psychology & Behavioral Science", "Sociology & Anthropology", "Political Science", "Education", "Health Sciences"],
+        "useCase": ["Qualitative Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": ["Team Collaboration"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "atlas-ti",
+      "name": "Atlas.ti",
+      "company": "ATLAS.ti Scientific Software",
+      "description": "Qualitative data analysis platform with AI-assisted coding, grounded theory support, concept mapping, and multi-modal data handling.",
+      "url": "https://atlasti.com",
+      "tags": {
+        "discipline": ["Psychology & Behavioral Science", "Sociology & Anthropology", "Political Science"],
+        "useCase": ["Qualitative Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)", "Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": ["Team Collaboration"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "lex",
+      "name": "Lex",
+      "company": "Lex",
+      "description": "Clean, distraction-free AI writing environment built for long-form writing with an assistant that helps when you get stuck.",
+      "url": "https://lex.page",
+      "tags": {
+        "discipline": ["Literature & Writing"],
+        "useCase": ["Writing & Drafting"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Writing Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Version History"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "sudowrite",
+      "name": "Sudowrite",
+      "company": "Sudowrite",
+      "description": "AI writing tool built specifically for fiction — story development, character creation, brainstorming, and style matching.",
+      "url": "https://sudowrite.com",
+      "tags": {
+        "discipline": ["Literature & Writing"],
+        "useCase": ["Creative Writing", "Writing & Drafting"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Creative Projects"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "deepl",
+      "name": "DeepL",
+      "company": "DeepL",
+      "description": "Superior AI translation tool with formality options, document translation, and consistently higher accuracy than competitors.",
+      "url": "https://deepl.com",
+      "tags": {
+        "discipline": ["Foreign Languages & Linguistics", "Cross-disciplinary"],
+        "useCase": ["Translation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)", "Mobile App", "Browser Extension"],
+        "pedagogical": ["Language Learning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Translation"],
+        "specialFeatures": ["Multilingual Support", "Export Options"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "company": "Duolingo",
+      "description": "Gamified AI language learning platform with personalized lessons, conversation practice, and adaptive difficulty across 40+ languages.",
+      "url": "https://duolingo.com",
+      "tags": {
+        "discipline": ["Foreign Languages & Linguistics"],
+        "useCase": ["Language Learning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Personalized Learning", "Student Support - Tutoring"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Personalization/Adaptive"],
+        "specialFeatures": ["Multilingual Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Interactive Content"]
+      }
+    },
+
+    {
+      "id": "speak",
+      "name": "Speak",
+      "company": "Speak",
+      "description": "AI conversation partner for language learning with pronunciation feedback, real-time speaking practice, and grammar coaching.",
+      "url": "https://speak.com",
+      "tags": {
+        "discipline": ["Foreign Languages & Linguistics"],
+        "useCase": ["Language Learning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Mobile App"],
+        "pedagogical": ["Personalized Learning", "Student Support - Tutoring"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Personalization/Adaptive"],
+        "specialFeatures": ["Multilingual Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Interactive Content"]
+      }
+    },
+
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram Alpha",
+      "company": "Wolfram Research",
+      "description": "Computational knowledge engine with step-by-step solutions for mathematics, science, data, and cross-disciplinary queries.",
+      "url": "https://wolframalpha.com",
+      "tags": {
+        "discipline": ["STEM - Mathematics & Statistics", "STEM - Physical Sciences", "STEM - Life Sciences"],
+        "useCase": ["Data Analysis", "Problem Solving"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Student Support - Tutoring", "Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis", "Question Answering"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "mathway",
+      "name": "Mathway",
+      "company": "Chegg",
+      "description": "Solves math problems step-by-step across algebra, calculus, statistics, and more — from typed or photographed problems.",
+      "url": "https://mathway.com",
+      "tags": {
+        "discipline": ["STEM - Mathematics & Statistics"],
+        "useCase": ["Problem Solving"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Student Support - Tutoring"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Question Answering"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "photomath",
+      "name": "Photomath",
+      "company": "Photomath",
+      "description": "Point your camera at a handwritten or printed math problem and get instant step-by-step explanations and graph visualizations.",
+      "url": "https://photomath.com",
+      "tags": {
+        "discipline": ["STEM - Mathematics & Statistics"],
+        "useCase": ["Problem Solving"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Mobile App"],
+        "pedagogical": ["Student Support - Tutoring"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Question Answering"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "labxchange",
+      "name": "LabXchange",
+      "company": "Harvard University",
+      "description": "Free Harvard-developed platform for science education with AI-personalized learning paths, virtual labs, and curated STEM content.",
+      "url": "https://labxchange.org",
+      "tags": {
+        "discipline": ["STEM - Life Sciences", "STEM - Physical Sciences"],
+        "useCase": ["Interactive Learning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Personalized Learning", "Interactive Activities"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Personalization/Adaptive"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Interactive Content"]
+      }
+    },
+
+    {
+      "id": "otter-ai",
+      "name": "Otter.ai",
+      "company": "Otter.ai",
+      "description": "Real-time meeting transcription with speaker identification, automated summaries, and action item extraction across Zoom, Teams, and Google Meet.",
+      "url": "https://otter.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Transcription", "Meeting Transcription", "Note-Taking"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Accessibility Support"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Summarization"],
+        "specialFeatures": ["Accessibility Features", "Zoom Integration"],
+        "collaboration": ["Team Collaboration", "Sharing Capabilities"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "fireflies",
+      "name": "Fireflies.ai",
+      "company": "Fireflies.ai",
+      "description": "AI meeting recorder that auto-joins calls, creates searchable transcripts, generates summaries, and extracts action items.",
+      "url": "https://fireflies.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Transcription", "Meeting Transcription"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Summarization"],
+        "specialFeatures": ["Zoom Integration"],
+        "collaboration": ["Team Collaboration", "Sharing Capabilities"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "fathom",
+      "name": "Fathom",
+      "company": "Fathom Video",
+      "description": "Free AI meeting recorder with automatic summaries, highlights, and multilingual support for Zoom and Google Meet.",
+      "url": "https://fathom.video",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Transcription", "Meeting Transcription"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Summarization"],
+        "specialFeatures": ["Multilingual Support", "Zoom Integration"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "company": "Notion",
+      "description": "AI writing, summarization, and database querying built into Notion's all-in-one workspace for notes, projects, and team wikis.",
+      "url": "https://notion.so",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Note-Taking", "Knowledge Management", "Project Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)", "Mobile App"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration", "Real-Time Collaboration"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "mem",
+      "name": "Mem",
+      "company": "Mem Labs",
+      "description": "AI-native note-taking app that automatically organizes your notes, surfaces connections between ideas, and answers questions from your knowledge base.",
+      "url": "https://mem.ai",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Note-Taking", "Knowledge Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Study Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Summarization", "Question Answering"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "reflect",
+      "name": "Reflect",
+      "company": "Reflect",
+      "description": "Privacy-first networked note-taking app with backlinks, AI writing assistance, and end-to-end encryption for building a connected knowledge graph.",
+      "url": "https://reflect.app",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Note-Taking", "Knowledge Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Mobile App"],
+        "pedagogical": ["Study Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "taskade",
+      "name": "Taskade",
+      "company": "Taskade",
+      "description": "AI-native workspace combining tasks, notes, mind maps, and multi-agent AI collaboration in a single tool.",
+      "url": "https://taskade.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Task Management", "Project Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Automation"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration", "Real-Time Collaboration"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "motion",
+      "name": "Motion",
+      "company": "Motion",
+      "description": "AI scheduling and task management tool that automatically prioritizes your calendar, deadlines, and meetings each day.",
+      "url": "https://usemotion.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Task Management"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based", "Desktop App (Mac)", "Desktop App (Windows)", "Mobile App"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Automation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "adobe-sensei",
+      "name": "Adobe Sensei",
+      "company": "Adobe",
+      "description": "Adobe's AI engine powering intelligent features across Creative Cloud — auto-tagging, neural filters, content-aware editing, and generative tools.",
+      "url": "https://adobe.com/sensei.html",
+      "tags": {
+        "discipline": ["Visual Arts & Design", "Film & Media Arts"],
+        "useCase": ["Image Generation", "Automation"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Image Generation", "Automation"],
+        "specialFeatures": ["Adobe Creative Cloud Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "figma-ai",
+      "name": "Figma AI",
+      "company": "Figma",
+      "description": "AI-powered design suggestions, auto-layout, and smart selection built into the industry-standard collaborative design platform.",
+      "url": "https://figma.com",
+      "tags": {
+        "discipline": ["Visual Arts & Design", "STEM - Computer Science & Technology"],
+        "useCase": ["UI/UX Design"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration", "Real-Time Collaboration", "Commenting/Feedback"],
+        "outputType": ["Images", "Interactive Content"]
+      }
+    },
+
+    {
+      "id": "uizard",
+      "name": "Uizard",
+      "company": "Uizard",
+      "description": "Turns sketches and screenshots into editable UI designs and wireframes using AI — no design background needed.",
+      "url": "https://uizard.io",
+      "tags": {
+        "discipline": ["Visual Arts & Design", "STEM - Computer Science & Technology"],
+        "useCase": ["UI/UX Design"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Image Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Images", "Interactive Content"]
+      }
+    },
+
+    {
+      "id": "khroma",
+      "name": "Khroma",
+      "company": "Khroma",
+      "description": "AI color palette generator that learns your personal color preferences and generates unlimited on-brand palette combinations.",
+      "url": "https://khroma.co",
+      "tags": {
+        "discipline": ["Visual Arts & Design"],
+        "useCase": ["Design Support"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Personalization/Adaptive"],
+        "specialFeatures": ["Accessibility Features"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Images"]
+      }
+    },
+
+    {
+      "id": "suno",
+      "name": "Suno",
+      "company": "Suno",
+      "description": "Leading text-to-music AI that generates full songs with vocals, instrumentals, and lyrics from a simple text prompt.",
+      "url": "https://suno.com",
+      "tags": {
+        "discipline": ["Arts & Creative Media", "Audio Production & Technology", "Education"],
+        "useCase": ["Audio Production", "Creative Writing"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Creative Projects", "Interactive Activities"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Audio Generation"],
+        "specialFeatures": ["Multilingual Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Audio"]
+      }
+    },
+
+    {
+      "id": "khanmigo",
+      "name": "Khanmigo",
+      "company": "Khan Academy",
+      "description": "AI tutor built on Socratic questioning that guides students through problems without giving away answers, plus teacher planning tools.",
+      "url": "https://khanacademy.org/khan-labs",
+      "tags": {
+        "discipline": ["Education"],
+        "useCase": ["Interactive Learning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Student Support - Tutoring", "Lesson Planning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Question Answering", "Personalization/Adaptive"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Interactive Content", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "quizlet-ai",
+      "name": "Quizlet AI",
+      "company": "Quizlet",
+      "description": "AI-enhanced study platform that generates flashcards, practice tests, and explanations from any uploaded course material.",
+      "url": "https://quizlet.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Assessment Creation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based", "Mobile App"],
+        "pedagogical": ["Student Support - Study Skills", "Formative Assessment"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Personalization/Adaptive", "Question Answering"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Interactive Content"]
+      }
+    },
+
+    {
+      "id": "brisk-teaching",
+      "name": "Brisk Teaching",
+      "company": "Brisk Teaching",
+      "description": "Chrome extension that helps teachers give AI-powered feedback on student work, generate lesson plans, and create rubrics directly in Google Docs.",
+      "url": "https://briskteaching.com",
+      "tags": {
+        "discipline": ["Education"],
+        "useCase": ["Grading & Feedback", "Lesson Planning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Browser Extension"],
+        "pedagogical": ["Grading & Feedback", "Lesson Planning"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "magicschool",
+      "name": "MagicSchool",
+      "company": "MagicSchool AI",
+      "description": "Suite of 60+ AI tools for educators covering lesson planning, assessment creation, differentiation, IEP support, and more.",
+      "url": "https://magicschool.ai",
+      "tags": {
+        "discipline": ["Education"],
+        "useCase": ["Lesson Planning", "Assessment Creation", "Differentiation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Assessment Creation", "Differentiation"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "eduaide",
+      "name": "Eduaide.ai",
+      "company": "Eduaide",
+      "description": "Standards-aligned AI tool for generating differentiated lesson plans, assessment items, and instructional resources for educators.",
+      "url": "https://eduaide.ai",
+      "tags": {
+        "discipline": ["Education"],
+        "useCase": ["Lesson Planning", "Assessment Creation", "Differentiation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Assessment Creation", "Differentiation"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "curipod",
+      "name": "Curipod",
+      "company": "Curipod",
+      "description": "Generates interactive lesson slides with built-in polls, word clouds, drawings, and formative assessment activities in minutes.",
+      "url": "https://curipod.com",
+      "tags": {
+        "discipline": ["Education"],
+        "useCase": ["Interactive Learning", "Formative Assessment"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Interactive Activities", "Formative Assessment", "Lesson Planning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Templates Available"],
+        "collaboration": ["Real-Time Collaboration"],
+        "outputType": ["Presentations", "Interactive Content"]
+      }
+    },
+
+    {
+      "id": "immersive-reader",
+      "name": "Microsoft Immersive Reader",
+      "company": "Microsoft",
+      "description": "Free accessibility tool that simplifies text, offers text-to-speech, adjustable formatting, translation, and reading support for diverse learners.",
+      "url": "https://microsoft.com/en-us/education/products/learning-tools",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Education"],
+        "useCase": ["Accessibility Support"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based", "Desktop App (Windows)"],
+        "pedagogical": ["Accessibility Support"],
+        "audience": "Student-Facing",
+        "aiCapability": ["Translation"],
+        "specialFeatures": ["Accessibility Features", "Multilingual Support", "Microsoft 365 Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "read-write",
+      "name": "Read&Write",
+      "company": "Texthelp",
+      "description": "Assistive technology browser extension with text-to-speech, word prediction, vocabulary support, and reading tools for diverse learners.",
+      "url": "https://texthelp.com/products/read-write/",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Education"],
+        "useCase": ["Accessibility Support", "Writing Support"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Browser Extension", "Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": ["Accessibility Support", "Writing Support"],
+        "audience": "Student-Facing",
+        "aiCapability": [],
+        "specialFeatures": ["Accessibility Features", "Citation Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Audio"]
+      }
+    },
+
+    {
+      "id": "voice-dream",
+      "name": "Voice Dream Reader",
+      "company": "Voice Dream",
+      "description": "High-quality text-to-speech app that reads PDFs, documents, and web pages aloud with natural-sounding voices in multiple languages.",
+      "url": "https://voicedream.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Accessibility Support"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Mobile App"],
+        "pedagogical": ["Accessibility Support"],
+        "audience": "Student-Facing",
+        "aiCapability": [],
+        "specialFeatures": ["Accessibility Features", "Multilingual Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Audio"]
+      }
+    },
+
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "company": "HubSpot",
+      "description": "AI-powered CRM platform covering marketing, sales, and customer service — now standard in MBA marketing curricula with a free educational tier.",
+      "url": "https://hubspot.com",
+      "tags": {
+        "discipline": ["Business & Management", "Communications & Journalism"],
+        "useCase": ["Knowledge Management", "Automation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Project-Based Learning"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Automation", "Personalization/Adaptive"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "dovetail",
+      "name": "Dovetail",
+      "company": "Dovetail",
+      "description": "Qualitative research and customer insights platform for coding interviews, surveys, and research repositories with AI-assisted analysis.",
+      "url": "https://dovetail.com",
+      "tags": {
+        "discipline": ["Psychology & Behavioral Science", "Business & Management", "Sociology & Anthropology"],
+        "useCase": ["Qualitative Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis"],
+        "specialFeatures": ["Team Collaboration"],
+        "collaboration": ["Team Collaboration", "Commenting/Feedback"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "brand24",
+      "name": "Brand24",
+      "company": "Brand24",
+      "description": "AI-powered media monitoring tool that tracks brand, topic, and keyword mentions across social media and news in real time.",
+      "url": "https://brand24.com",
+      "tags": {
+        "discipline": ["Communications & Journalism", "Business & Management", "Political Science"],
+        "useCase": ["Media Monitoring", "Research & Analysis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Data Visualizations", "Text Documents"]
+      }
+    },
+
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "company": "Hugging Face",
+      "description": "The leading open-source AI platform for discovering, testing, and deploying AI models — the GitHub of machine learning.",
+      "url": "https://huggingface.co",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology", "STEM - Data Science"],
+        "useCase": ["AI Development"],
+        "easeOfUse": "Advanced/Technical Users",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": ["Open Source"],
+        "collaboration": ["Team Collaboration", "Sharing Capabilities"],
+        "outputType": ["Code", "Interactive Content"]
+      }
+    },
+
+    {
+      "id": "harvey-ai",
+      "name": "Harvey AI",
+      "company": "Harvey",
+      "description": "AI-native legal platform purpose-built for legal reasoning, contract analysis, multi-jurisdictional research, and firm-specific customization.",
+      "url": "https://harvey.ai",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Legal Research", "Contract Review"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Research/Citation", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "westlaw-cocounsel",
+      "name": "Westlaw CoCounsel",
+      "company": "Thomson Reuters",
+      "description": "AI legal research assistant layered on Westlaw's case law database — reduces citation hallucination and is standard at major law firms.",
+      "url": "https://legal.thomsonreuters.com/en/products/westlaw/cocounsel",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Legal Research", "Literature Review"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Citation Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "lexis-ai",
+      "name": "Lexis+ AI (Protégé)",
+      "company": "LexisNexis",
+      "description": "LexisNexis's AI for legal research and document drafting with strong citation accuracy and systematic transactional document analysis.",
+      "url": "https://lexisnexis.com/en-us/products/lexis-plus-ai.page",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Legal Research", "Literature Review"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Citation Support"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "spellbook",
+      "name": "Spellbook",
+      "company": "Rally",
+      "description": "AI contract drafting tool built directly into Microsoft Word — suggests clause language, drafts provisions, and flags issues in real time.",
+      "url": "https://spellbook.legal",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Contract Review", "Writing & Drafting"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Paid Subscription",
+        "platform": ["Desktop App (Mac)", "Desktop App (Windows)"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Microsoft 365 Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "luminance",
+      "name": "Luminance",
+      "company": "Luminance",
+      "description": "AI contract review and negotiation platform trained on 150M+ legal documents — cuts contract negotiation time by up to 90%.",
+      "url": "https://luminance.com",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Contract Review", "Legal Research"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "relativity-air",
+      "name": "Relativity aiR",
+      "company": "Relativity",
+      "description": "AI-powered eDiscovery and document review platform used across 2,000+ legal projects with 50-70% time savings in review workflows.",
+      "url": "https://relativity.com/aiR",
+      "tags": {
+        "discipline": ["Law"],
+        "useCase": ["Legal Research", "Data Analysis"],
+        "easeOfUse": "Advanced/Technical Users",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Faculty Only",
+        "aiCapability": ["Data Analysis", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "quorum",
+      "name": "Quorum",
+      "company": "Quorum",
+      "description": "AI-powered legislative tracking and public affairs intelligence platform used by NGOs, think tanks, and advocacy organizations.",
+      "url": "https://quorum.us",
+      "tags": {
+        "discipline": ["Public Affairs & Policy", "International Studies & Affairs", "Political Science"],
+        "useCase": ["Legislative Tracking", "Research & Analysis"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Paid Subscription",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Data Analysis", "Summarization"],
+        "specialFeatures": [],
+        "collaboration": ["Team Collaboration"],
+        "outputType": ["Text Documents", "Data Visualizations"]
+      }
+    },
+
+    {
+      "id": "gemini-deep-research",
+      "name": "Gemini Deep Research",
+      "company": "Google",
+      "description": "Gemini's autonomous research mode that plans and executes multi-step web searches, then produces comprehensive long-form research reports.",
+      "url": "https://gemini.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Research & Analysis", "Literature Review", "Research Synthesis"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Research/Citation", "Summarization"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "gemini-canvas",
+      "name": "Gemini Canvas",
+      "company": "Google",
+      "description": "Turns ideas and research into shareable interactive pages, quizzes, and simple web apps — built into the Gemini ecosystem.",
+      "url": "https://gemini.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "Education"],
+        "useCase": ["Presentation Design", "Interactive Learning"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning", "Interactive Activities"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Sharing Capabilities"],
+        "outputType": ["Interactive Content", "Web Pages"]
+      }
+    },
+
+    {
+      "id": "gemini-gems",
+      "name": "Gemini Gems",
+      "company": "Google",
+      "description": "Custom AI personas within Gemini — create specialized assistants with specific instructions, knowledge, and personalities for recurring tasks.",
+      "url": "https://gemini.google.com",
+      "tags": {
+        "discipline": ["Cross-disciplinary"],
+        "useCase": ["Knowledge Management", "Automation"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Lesson Planning"],
+        "audience": "Faculty Only",
+        "aiCapability": ["Text Generation", "Personalization/Adaptive"],
+        "specialFeatures": ["Google Workspace Integration"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "google-ai-studio",
+      "name": "Google AI Studio",
+      "company": "Google",
+      "description": "Browser-based prototyping environment for Google's AI models — build interactive web components, test prompts, and explore Gemini's capabilities.",
+      "url": "https://aistudio.google.com",
+      "tags": {
+        "discipline": ["STEM - Computer Science & Technology", "STEM - Data Science"],
+        "useCase": ["AI Development"],
+        "easeOfUse": "Some Experience Helpful",
+        "cost": "Freemium",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Research Skills"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Code Generation"],
+        "specialFeatures": ["Google Workspace Integration", "API Access"],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Code", "Interactive Content"]
+      }
+    },
+
+    {
+      "id": "synthid",
+      "name": "SynthID",
+      "company": "Google DeepMind",
+      "description": "Google's watermarking system that embeds invisible, tamper-resistant signals in AI-generated images, audio, and text for provenance verification.",
+      "url": "https://deepmind.google/technologies/synthid/",
+      "tags": {
+        "discipline": ["Cross-disciplinary", "STEM - Computer Science & Technology"],
+        "useCase": ["Media Monitoring"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": [],
+        "audience": "Both Faculty and Students",
+        "aiCapability": [],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents"]
+      }
+    },
+
+    {
+      "id": "pomelli",
+      "name": "Pomelli",
+      "company": "Google Labs",
+      "description": "Free Google Labs marketing tool that analyzes your brand and generates on-brand social posts, ad creatives, and email content at scale.",
+      "url": "https://labs.google.com/pomelli",
+      "tags": {
+        "discipline": ["Communications & Journalism", "Business & Management"],
+        "useCase": ["Writing & Drafting"],
+        "easeOfUse": "Beginner-Friendly",
+        "cost": "Completely Free",
+        "platform": ["Web-Based"],
+        "pedagogical": ["Resource Curation"],
+        "audience": "Both Faculty and Students",
+        "aiCapability": ["Text Generation", "Image Generation"],
+        "specialFeatures": [],
+        "collaboration": ["Individual Use Only"],
+        "outputType": ["Text Documents", "Images"]
+      }
+    }
+
+  ]
+}
